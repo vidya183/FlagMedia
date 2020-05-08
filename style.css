@@ -214,6 +214,13 @@ h1::after{
      margin-top: 15px;
     
 } 
+.profile-pic p{
+font: size 10px; 
+margin-top: 15px;
+margin-right: 45px;
+
+}
+
 #team.fa{
 
      height: 25px;
@@ -289,6 +296,7 @@ h1::after{
      color:white;
      background-color:#007bff;
 }
+
 /*-------------------------promo section----------------------------------*/
 #promo{
      background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(promo.jpg);
@@ -525,9 +533,12 @@ blockquote{
      text-transform: uppercase;
      
 }
+/*----------------------------------read more-------------------------------------------------*/
 
 
-
+#more {
+     display: none;
+}
 
 
 
